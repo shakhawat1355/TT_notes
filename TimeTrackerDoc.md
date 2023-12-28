@@ -8,4 +8,4 @@ The are four pluins that controls assembles the whole time tracking system.
 - param1: The first parameter.
 - param2: The second parameter.
 
-![Sample Image](/assets/Trello%20PowerUpClient.jpg)
+![Sample Image](/assets/Trello%20PowerUpClientbg.png)
