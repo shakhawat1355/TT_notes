@@ -22,7 +22,7 @@ This plugin is the backbone of Time Tracker system. It holds all the entities an
 - holds all the entities and models needed in other plugins.
 
 Here a diagram that illustrates the workflow-
-![Sample Image](/assets/Trello%20PowerUpClientbg.png)
+![Sample Image](/assets/tt_workflow.png)
 
 
 ### ⚙️ Weekly Report
@@ -32,4 +32,26 @@ This plugin is responsible for admin view and frontend of Time tracker.The admin
 - provides data range report and daily standup report by proccessing data from db.
 - Responsible for weekly report Emailing system.
 Here a diagram that illustrates the workflow-
-![Sample Image](/assets/Trello%20PowerUpClientbg.png)
+![Sample Image](/assets/weeklyReport.drawio.png )
+
+So if we add all the plugins the workflow will look like-
+![Sample Image](/assets/Total.jpg )
+
+## How to Delevop feature in Time tracker
+First of all to develop any feature you will need a complete idea of how nop plugins function.
+
+### 🔧 Trello Powerup Client Plugin
+- To develop any feature in Trello powerUp client plugin you will need to know about 
+[Trello powerup client library](https://developer.atlassian.com/cloud/trello/power-ups/ )
+- the whole plugin depends on ajax request handled by time tracker plugin. so to post/get any data you will have to create api endpoints in time tracker plugin along with entities/models/factories/service etc.
+
+### 🔧 Time Tracker Plugin
+- Its actually very easy to add any API  endpoints here. Just copy an existing API endpoint and modify it as per requirement.
+- Any entity or domain you need must be created on this plugin.
+
+### 🔧 Weekly Report Plugin
+- this plugin has two parts one in the public site and another in the admin area. So any feature you need to develop should be based of area either public or admin area.
+- In the admin area, adding a feature is quite simple as goes by the book.
+- But in the public site there are two main features "Date Range Report" and "Daily Standup Report". To add anything in these views you will need to work on their js files. They JS files may seem complex and hard to understand as the dont belong to default nop views. So take time and try to understand how things work.
+
+Hope this doc has helped you understand how Nop Time Tracker works and how to develop features in this system.
