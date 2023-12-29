@@ -12,8 +12,9 @@ This plugin provides trello powerUp which is used by the users to input data lik
 - Post/Get Data from users to TimeTracker Plugin.
 Here a diagram that illustrates the workflow-
 <img src="assets/Trello%20PowerUpClientbg.png" alt="Description" width="400" height="200" />
+
 ### ⚙️ Time Tracker Plugin
-This plugin is the backbone of Time Tracker system. It holds all the entities and Api's needed. Both Weekly report plugin and Trello powerUp client plugin are directly depend on this  plugin.
+This plugin is the backbone of Time Tracker system. It holds all the entities and Api's needed. Both Weekly report plugin and Trello powerUp client plugin are directly depended on this  plugin.
 
 💡 Functionality -
 - Serves data to trello powerup client via Api responses.
@@ -57,4 +58,6 @@ First of all to develop any feature you will need a complete idea of how nop plu
 - In the admin area, adding a feature is quite simple as goes by the book.
 - But in the public site there are two main features "Date Range Report" and "Daily Standup Report". To add anything in these views you will need to work on their js files. They JS files may seem complex and hard to understand as the dont belong to default nop views. So take time and try to understand how things work.
 
-Hope this doc has helped you understand how Nop Time Tracker works and how to develop features in this system.
+⭐ Nop Station Time Tracker is an exceptional example of using nop into something else rather than a ecommmerce site. This project has proved there exists different scopes of using the NopCommerce opensource platform.
+
+✌️ Hope this doc has helped you understand how Nop Time Tracker works and how to develop features in this system.
