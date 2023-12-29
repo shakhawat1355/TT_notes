@@ -11,8 +11,7 @@ This plugin provides trello powerUp which is used by the users to input data lik
 - provides a view of the custom powerup made by time tacker team.
 - Post/Get Data from users to TimeTracker Plugin.
 Here a diagram that illustrates the workflow-
-![Sample Image](/assets/Trello%20PowerUpClientbg.png)
-
+<img src="assets/Trello%20PowerUpClientbg.png" alt="Description" width="600" height="200" />
 ### ⚙️ Time Tracker Plugin
 This plugin is the backbone of Time Tracker system. It holds all the entities and Api's needed. Both Weekly report plugin and Trello powerUp client plugin are directly depend on this  plugin.
 
@@ -22,8 +21,7 @@ This plugin is the backbone of Time Tracker system. It holds all the entities an
 - holds all the entities and models needed in other plugins.
 
 Here a diagram that illustrates the workflow-
-![Sample Image](/assets/tt_workflow.png)
-
+<img src="assets/tt_workflow.png" alt="Description" width="300" height="200" />
 
 ### ⚙️ Weekly Report
 This plugin is responsible for admin view and frontend of Time tracker.The admin manages users and maps with different entities.  
@@ -32,11 +30,12 @@ This plugin is responsible for admin view and frontend of Time tracker.The admin
 - provides data range report and daily standup report by proccessing data from db.
 - Responsible for weekly report Emailing system.
 Here a diagram that illustrates the workflow-
-![Sample Image](/assets/weeklyReport.drawio.png )
+
+<img src="assets/weeklyReport.drawio.png" alt="Description" width="300" height="200" />
+
 
 So if we add all the plugins the workflow will look like-
-![Sample Image](/assets/Total.jpg )
-
+<img src="assets/Total.jpg " alt="Description" width="300" height="200" />
 ## How to Delevop feature in Time tracker
 First of all to develop any feature you will need a complete idea of how nop plugins function.
 
