@@ -1,5 +1,5 @@
 # Git Workflow
-![Workflow Image](/git-flow.png)
+![Workflow Image](git-flow.png)
 ## Environments:
 
 - Test Site
