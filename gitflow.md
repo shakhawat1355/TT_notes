@@ -80,12 +80,13 @@
 - Squash commits while merging into `develop`, `master`, and `release_xxx`.
 - Plan releases carefully, considering client approvals and UAT testing.
 - A reviewer approves the pull request after resolving any issues but does not merge it.
-- Delete the feature branch right after merging to the target branch
+- Delete the feature branch right after releasing. 
 
 **Don't -**
 -
 -  merge `test_deploy` into `feature_xxx` or any other branch.
--  merge `feature_branch` into `develop` branch
-- create branch without following proper naming convention.
+-  merge `feature_branch` into `develop` branch without client approval.
+-  create branch without following proper naming convention.
+-  upload plugin directly to live site.
 
 
