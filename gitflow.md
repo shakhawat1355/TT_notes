@@ -20,10 +20,6 @@
 - `bugfix`: Manage your bugfix branches.
 - `release`: Manage your release branches.
 - `hotfix`: Manage your hotfix branches.
-- `support`: Manage your support branches.
-- `version`: Shows version information.
-- `config`: Manage your git-flow configuration.
-- `log`: Show log deviating from base branch.
 
 
 ## Process:
