@@ -6,13 +6,11 @@
 - Stage Site
 - Live Site
 
-## Branches:
+## Required Branches:
 
 - `master`/`main`/`production`
 - `develop`
 - `test`/`test_deploy`
-- `feature_xxx`
-- `release_xxx`
 
 ## Branch Categories:
 
